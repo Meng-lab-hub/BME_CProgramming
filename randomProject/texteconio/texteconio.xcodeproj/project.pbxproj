@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9FE53C2535AF170015A4E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE53B2535AF170015A4E0 /* AppDelegate.m */; };
+		BB9FE53E2535AF1A0015A4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9FE53D2535AF1A0015A4E0 /* Assets.xcassets */; };
+		BB9FE5412535AF1A0015A4E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9FE53F2535AF1A0015A4E0 /* MainMenu.xib */; };
+		BB9FE5442535AF1A0015A4E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE5432535AF1A0015A4E0 /* main.m */; };
+		BB9FE54F2535AF1A0015A4E0 /* texteconioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE54E2535AF1A0015A4E0 /* texteconioTests.m */; };
+		BB9FE55A2535AF1A0015A4E0 /* texteconioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE5592535AF1A0015A4E0 /* texteconioUITests.m */; };
+		BB9FE5692535AF4A0015A4E0 /* econio.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE5682535AF4A0015A4E0 /* econio.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9FE54B2535AF1A0015A4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9FE52F2535AF170015A4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9FE5362535AF170015A4E0;
+			remoteInfo = texteconio;
+		};
+		BB9FE5562535AF1A0015A4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9FE52F2535AF170015A4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9FE5362535AF170015A4E0;
+			remoteInfo = texteconio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB9FE5372535AF170015A4E0 /* texteconio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = texteconio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9FE53A2535AF170015A4E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB9FE53B2535AF170015A4E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB9FE53D2535AF1A0015A4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB9FE5402535AF1A0015A4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB9FE5422535AF1A0015A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9FE5432535AF1A0015A4E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9FE5452535AF1A0015A4E0 /* texteconio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = texteconio.entitlements; sourceTree = "<group>"; };
+		BB9FE54A2535AF1A0015A4E0 /* texteconioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = texteconioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9FE54E2535AF1A0015A4E0 /* texteconioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = texteconioTests.m; sourceTree = "<group>"; };
+		BB9FE5502535AF1A0015A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9FE5552535AF1A0015A4E0 /* texteconioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = texteconioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9FE5592535AF1A0015A4E0 /* texteconioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = texteconioUITests.m; sourceTree = "<group>"; };
+		BB9FE55B2535AF1A0015A4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9FE5672535AF4A0015A4E0 /* econio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = econio.h; sourceTree = "<group>"; };
+		BB9FE5682535AF4A0015A4E0 /* econio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = econio.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9FE5342535AF170015A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5472535AF1A0015A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5522535AF1A0015A4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9FE52E2535AF170015A4E0 = {
+			isa = PBXGroup;
+			children = (
+				BB9FE5392535AF170015A4E0 /* texteconio */,
+				BB9FE54D2535AF1A0015A4E0 /* texteconioTests */,
+				BB9FE5582535AF1A0015A4E0 /* texteconioUITests */,
+				BB9FE5382535AF170015A4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9FE5382535AF170015A4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FE5372535AF170015A4E0 /* texteconio.app */,
+				BB9FE54A2535AF1A0015A4E0 /* texteconioTests.xctest */,
+				BB9FE5552535AF1A0015A4E0 /* texteconioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9FE5392535AF170015A4E0 /* texteconio */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FE53A2535AF170015A4E0 /* AppDelegate.h */,
+				BB9FE53B2535AF170015A4E0 /* AppDelegate.m */,
+				BB9FE53D2535AF1A0015A4E0 /* Assets.xcassets */,
+				BB9FE53F2535AF1A0015A4E0 /* MainMenu.xib */,
+				BB9FE5422535AF1A0015A4E0 /* Info.plist */,
+				BB9FE5432535AF1A0015A4E0 /* main.m */,
+				BB9FE5672535AF4A0015A4E0 /* econio.h */,
+				BB9FE5682535AF4A0015A4E0 /* econio.c */,
+				BB9FE5452535AF1A0015A4E0 /* texteconio.entitlements */,
+			);
+			path = texteconio;
+			sourceTree = "<group>";
+		};
+		BB9FE54D2535AF1A0015A4E0 /* texteconioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FE54E2535AF1A0015A4E0 /* texteconioTests.m */,
+				BB9FE5502535AF1A0015A4E0 /* Info.plist */,
+			);
+			path = texteconioTests;
+			sourceTree = "<group>";
+		};
+		BB9FE5582535AF1A0015A4E0 /* texteconioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FE5592535AF1A0015A4E0 /* texteconioUITests.m */,
+				BB9FE55B2535AF1A0015A4E0 /* Info.plist */,
+			);
+			path = texteconioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9FE5362535AF170015A4E0 /* texteconio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9FE55E2535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconio" */;
+			buildPhases = (
+				BB9FE5332535AF170015A4E0 /* Sources */,
+				BB9FE5342535AF170015A4E0 /* Frameworks */,
+				BB9FE5352535AF170015A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = texteconio;
+			productName = texteconio;
+			productReference = BB9FE5372535AF170015A4E0 /* texteconio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9FE5492535AF1A0015A4E0 /* texteconioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9FE5612535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconioTests" */;
+			buildPhases = (
+				BB9FE5462535AF1A0015A4E0 /* Sources */,
+				BB9FE5472535AF1A0015A4E0 /* Frameworks */,
+				BB9FE5482535AF1A0015A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9FE54C2535AF1A0015A4E0 /* PBXTargetDependency */,
+			);
+			name = texteconioTests;
+			productName = texteconioTests;
+			productReference = BB9FE54A2535AF1A0015A4E0 /* texteconioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB9FE5542535AF1A0015A4E0 /* texteconioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9FE5642535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconioUITests" */;
+			buildPhases = (
+				BB9FE5512535AF1A0015A4E0 /* Sources */,
+				BB9FE5522535AF1A0015A4E0 /* Frameworks */,
+				BB9FE5532535AF1A0015A4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9FE5572535AF1A0015A4E0 /* PBXTargetDependency */,
+			);
+			name = texteconioUITests;
+			productName = texteconioUITests;
+			productReference = BB9FE5552535AF1A0015A4E0 /* texteconioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9FE52F2535AF170015A4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "khonmeng Kormoua";
+				TargetAttributes = {
+					BB9FE5362535AF170015A4E0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					BB9FE5492535AF1A0015A4E0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BB9FE5362535AF170015A4E0;
+					};
+					BB9FE5542535AF1A0015A4E0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BB9FE5362535AF170015A4E0;
+					};
+				};
+			};
+			buildConfigurationList = BB9FE5322535AF170015A4E0 /* Build configuration list for PBXProject "texteconio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9FE52E2535AF170015A4E0;
+			productRefGroup = BB9FE5382535AF170015A4E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9FE5362535AF170015A4E0 /* texteconio */,
+				BB9FE5492535AF1A0015A4E0 /* texteconioTests */,
+				BB9FE5542535AF1A0015A4E0 /* texteconioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9FE5352535AF170015A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FE53E2535AF1A0015A4E0 /* Assets.xcassets in Resources */,
+				BB9FE5412535AF1A0015A4E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5482535AF1A0015A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5532535AF1A0015A4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9FE5332535AF170015A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FE5442535AF1A0015A4E0 /* main.m in Sources */,
+				BB9FE53C2535AF170015A4E0 /* AppDelegate.m in Sources */,
+				BB9FE5692535AF4A0015A4E0 /* econio.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5462535AF1A0015A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FE54F2535AF1A0015A4E0 /* texteconioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FE5512535AF1A0015A4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9FE55A2535AF1A0015A4E0 /* texteconioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9FE54C2535AF1A0015A4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9FE5362535AF170015A4E0 /* texteconio */;
+			targetProxy = BB9FE54B2535AF1A0015A4E0 /* PBXContainerItemProxy */;
+		};
+		BB9FE5572535AF1A0015A4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9FE5362535AF170015A4E0 /* texteconio */;
+			targetProxy = BB9FE5562535AF1A0015A4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9FE53F2535AF1A0015A4E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9FE5402535AF1A0015A4E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9FE55C2535AF1A0015A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB9FE55D2535AF1A0015A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB9FE55F2535AF1A0015A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = texteconio/texteconio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB9FE5602535AF1A0015A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = texteconio/texteconio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB9FE5622535AF1A0015A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/texteconio.app/Contents/MacOS/texteconio";
+			};
+			name = Debug;
+		};
+		BB9FE5632535AF1A0015A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/texteconio.app/Contents/MacOS/texteconio";
+			};
+			name = Release;
+		};
+		BB9FE5652535AF1A0015A4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = texteconio;
+			};
+			name = Debug;
+		};
+		BB9FE5662535AF1A0015A4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = texteconioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khongmengk.texteconioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = texteconio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9FE5322535AF170015A4E0 /* Build configuration list for PBXProject "texteconio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9FE55C2535AF1A0015A4E0 /* Debug */,
+				BB9FE55D2535AF1A0015A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9FE55E2535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9FE55F2535AF1A0015A4E0 /* Debug */,
+				BB9FE5602535AF1A0015A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9FE5612535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9FE5622535AF1A0015A4E0 /* Debug */,
+				BB9FE5632535AF1A0015A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9FE5642535AF1A0015A4E0 /* Build configuration list for PBXNativeTarget "texteconioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9FE5652535AF1A0015A4E0 /* Debug */,
+				BB9FE5662535AF1A0015A4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9FE52F2535AF170015A4E0 /* Project object */;
+}

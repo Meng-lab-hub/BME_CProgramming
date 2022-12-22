@@ -1,0 +1,4 @@
++ we can have input which can be terminate by EOF (End Of File) by
+	while (scanf ("%c", &something) == 1) {		/* scanf () usually will return value 1 but it will return other thing incase of it 
+	...						   gets "EOF" as input (ctrl-C, ctrl-Z)	
+	} 							*/	

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602581945 source:/Users/meng/Documents/Electrical_Engineering_2nd_year/Semester_3/Programming/SDL/CodeBsdl/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sdl/sdl.h>
+
